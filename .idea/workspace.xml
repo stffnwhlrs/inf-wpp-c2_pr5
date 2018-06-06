@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f850c657-66ec-4573-9de1-a1e4579d079d" name="Default" comment="">
+    <list default="true" id="f850c657-66ec-4573-9de1-a1e4579d079d" name="Default" comment="Erste Mongo Funktionen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/collection-0--8932835101838695085.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/collection-0--8932835101838695085.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/collection-2--8932835101838695085.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/collection-2--8932835101838695085.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo/volumes/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/index-1--8932835101838695085.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/index-1--8932835101838695085.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/index-3--8932835101838695085.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/index-3--8932835101838695085.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/journal/WiredTigerLog.0000000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/volumes/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/sizeStorer.wt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +28,8 @@
       <file leaf-file-name="EinfacheMongoCon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EinfacheMongoCon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,12 +189,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528277523340</updated>
-      <workItem from="1528277525580" duration="2802000" />
+      <workItem from="1528277525580" duration="3047000" />
     </task>
+    <task id="LOCAL-00001" summary="Erste Mongo Funktionen">
+      <created>1528280729331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528280729332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2802000" />
+    <option name="totallyTimeSpent" value="3047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="22" width="840" height="763" extended-state="0" />
@@ -244,6 +243,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Erste Mongo Funktionen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Erste Mongo Funktionen" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -254,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EinfacheMongoCon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
