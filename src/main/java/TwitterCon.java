@@ -6,23 +6,21 @@ import twitter4j.conf.ConfigurationBuilder;
 
 import java.util.List;
 
-public class TwitterCon {
-    static final String CONSUMER_KEY = "1eVO4O5mvxFtj37urhNdmruct";
-    static final String CONSUMER_SECRET = "bMaFZPJi7QWfSDtQh7WcoAquUGE7pweAm4IaA5aFZq4PMDrdtl";
-    static final String ACCESS_TOKEN = "929886734-c0qNhrKHpvCEUVeVIOBGqfW65XsAUfSvsW9KXfIs";
-    static final String ACCESS_TOKEN_SECRET = "inB99KEfmS6a0UVc7szIlz4gIFy9Fm39ynTCdZsvMfvXJ";
+class TwitterCon {
+    private static final String CONSUMER_KEY = "1eVO4O5mvxFtj37urhNdmruct";
+    private static final String CONSUMER_SECRET = "bMaFZPJi7QWfSDtQh7WcoAquUGE7pweAm4IaA5aFZq4PMDrdtl";
+    private static final String ACCESS_TOKEN = "929886734-c0qNhrKHpvCEUVeVIOBGqfW65XsAUfSvsW9KXfIs";
+    private static final String ACCESS_TOKEN_SECRET = "inB99KEfmS6a0UVc7szIlz4gIFy9Fm39ynTCdZsvMfvXJ";
+
+    private Twitter _twitter;
 
 
-    public static void main(String[] args) {
-        Twitter instance = getTwitterInstance();
-        // showHomeTimeline(instance);
-        // updateTweet(instance, "Nadja ist ein Hoehlenmensch");
-        getUserTimeline(instance,"RealDonad_Trump");
-
+    TwitterCon() {
+        _twitter = getTwitterInstance();
     }
 
 
-    public static Twitter getTwitterInstance() {
+    private Twitter getTwitterInstance() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
                 .setOAuthConsumerKey(CONSUMER_KEY)
@@ -35,11 +33,10 @@ public class TwitterCon {
     }
 
 
-    private static void showHomeTimeline(Twitter twitter) {
-
-        List<Status> statuses = null;
+    void showHomeTimeline() {
+        List<Status> statuses;
         try {
-            statuses = twitter.getHomeTimeline();
+            statuses = _twitter.getHomeTimeline();
 
             System.out.println("Showing home timeline.");
 
@@ -54,9 +51,9 @@ public class TwitterCon {
         }
     }
 
-    private static void updateTweet(Twitter twitter, String tweet) {
+    void updateTweet(String tweet) {
         try {
-            Status status = twitter.updateStatus(tweet);
+            Status status = _twitter.updateStatus(tweet);
             System.out.println("Successfully updated the status to [" + status.getText() + "].");
         } catch (TwitterException e) {
             e.printStackTrace();
@@ -64,9 +61,9 @@ public class TwitterCon {
     }
 
 
-    private static void getUserTimeline(Twitter twitter, String user) {
+    void getUserTimeline(String user) {
         try{
-            List<Status> statuses = twitter.getUserTimeline(user);
+            List<Status> statuses = _twitter.getUserTimeline(user);
 
             for (Status status : statuses) {
                 String fmt = "@" + status.getUser().getScreenName() + " - " + status.getText();

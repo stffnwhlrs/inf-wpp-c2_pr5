@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f850c657-66ec-4573-9de1-a1e4579d079d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/volumes/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/volumes/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/volumes/collection-3-3243055641429727958.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/collection-3-3243055641429727958.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo/volumes/diagnostic.data/metrics.2018-06-06T09-45-43Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/diagnostic.data/metrics.2018-06-06T09-45-43Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo/volumes/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/volumes/index-4-3243055641429727958.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/index-4-3243055641429727958.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mongo/volumes/journal/WiredTigerLog.0000000002" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/journal/WiredTigerLog.0000000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/volumes/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/volumes/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwitterCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwitterCon.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +22,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="infwppc2_pr5" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -30,7 +40,7 @@
       <file leaf-file-name="MongoCon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MongoCon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-647">
+            <state relative-caret-position="44">
               <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding>
                 <element signature="e#1401#1582#0" expanded="true" />
@@ -43,8 +53,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="529">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,32 +62,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="69" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwitterCon.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TwitterCon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TwitterCon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-472">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="127">
+              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transformer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Transformer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="276">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,10 +106,11 @@
         <option value="$PROJECT_DIR$/src/main/java/EinfacheMongoCon.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoCon.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/twitter4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/UpdateStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Twitter4jExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Transformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwitterCon.java" />
       </list>
     </option>
@@ -199,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwitterCon">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="inf-wpp-c2_pr5" />
@@ -269,9 +276,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TwitterCon" />
         <item itemvalue="Application.UpdateStatus" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.EinfacheMongoCon" />
       </list>
     </recent_temporary>
@@ -286,7 +293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528277523340</updated>
-      <workItem from="1528277525580" duration="16492000" />
+      <workItem from="1528277525580" duration="20756000" />
     </task>
     <task id="LOCAL-00001" summary="Erste Mongo Funktionen">
       <created>1528280729331</created>
@@ -306,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16492000" />
+    <option name="totallyTimeSpent" value="20756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="1080" width="998" height="1050" extended-state="0" />
@@ -326,14 +333,14 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1503006" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865592" visible="true" weight="0.14128256" />
       <window_info anchor="right" id="Database" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5013441" side_tool="true" visible="true" weight="0.14128256" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" sideWeight="0.5013441" side_tool="true" weight="0.1503006" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,16 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UpdateStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -412,9 +409,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twitter4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MongoCon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-647">
+        <state relative-caret-position="44">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
             <element signature="e#1401#1582#0" expanded="true" />
@@ -423,17 +427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwitterCon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-472">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="529">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -442,8 +439,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="276">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TwitterCon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
