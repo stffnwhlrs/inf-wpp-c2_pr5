@@ -1,7 +1,10 @@
 import org.bson.Document;
 import twitter4j.Status;
 
-public class Transformer {
+import java.util.ArrayList;
+import java.util.List;
+
+class Transformer {
 
     Transformer(){
 
@@ -16,7 +19,15 @@ public class Transformer {
         if(status.getGeoLocation() != null) {
             result.append("location",status.getGeoLocation().toString());
         }
+        return result;
+     }
 
+
+     List<Document> statusListZuDocumentList(List<Status> status) {
+        List<Document> result = new ArrayList<Document>();
+        for (Status e : status) {
+            result.add(statusZuDocument(e));
+        }
         return result;
      }
 }

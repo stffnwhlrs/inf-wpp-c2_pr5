@@ -33,7 +33,7 @@ class TwitterCon {
     }
 
 
-    void showHomeTimeline() {
+    void zeigeHomeTimelineAufConsole() {
         List<Status> statuses;
         try {
             statuses = _twitter.getHomeTimeline();
@@ -60,17 +60,22 @@ class TwitterCon {
         }
     }
 
+    List<Status> gibUserTimeline(String user) {
+        List<Status> result = null;
+        try {
+            result = _twitter.getUserTimeline(user);
+        } catch(TwitterException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
-    void getUserTimeline(String user) {
-        try{
-            List<Status> statuses = _twitter.getUserTimeline(user);
-
+    void gibUserTimelineAufConsole(String user) {
+        List<Status> statuses = gibUserTimeline(user);
             for (Status status : statuses) {
                 String fmt = "@" + status.getUser().getScreenName() + " - " + status.getText();
                 System.out.println(fmt);
             }
-        } catch (TwitterException e) {
-            e.printStackTrace();
-        }
     }
+
 }
